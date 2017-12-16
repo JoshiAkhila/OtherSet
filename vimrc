@@ -30,3 +30,6 @@ set ruler
 
 " Always show current mode
 set showmode
+
+" Set ColorScheme
+colorscheme koehler
