@@ -24,3 +24,9 @@ set visualbell
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+
+" Show file stats
+set ruler
+
+" Always show current mode
+set showmode
