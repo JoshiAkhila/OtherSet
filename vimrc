@@ -36,3 +36,6 @@ colorscheme koehler
 
 " highlight matching search strings
 set hlsearch
+
+" make searches case insensitive
+set ignorecase
