@@ -33,3 +33,6 @@ set showmode
 
 " Set ColorScheme
 colorscheme koehler
+
+" highlight matching search strings
+set hlsearch
