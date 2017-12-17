@@ -3,6 +3,10 @@ services:
     jenkins-master:
         image: devops_jenkins:latest
         container_name: jenkins_master
+        # this assumes that host file has folder /var/jenkins_home. And also, 
+        # User 'jenkins' has permission to read/write from /var/jenkins_home 
+        volumes:
+            - /var/jenkins_home:/var/jenkins_home/
         ports:
             - "8080:8080"
             - "50000:50000"
