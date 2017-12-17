@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts
 USER root
-RUN apt-get update && apt-get -y install vim
+RUN apt-get update && apt-get -y install vim openssl build-essential
 USER jenkins
 COPY plugins.txt /var/jenkins_home/ 
 RUN /usr/local/bin/install-plugins.sh < /var/jenkins_home/plugins.txt
