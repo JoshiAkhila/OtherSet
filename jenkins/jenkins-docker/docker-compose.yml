@@ -3,3 +3,6 @@ services:
     jenkins-master:
         image: devops_jenkins:latest
         container_name: jenkins_master
+        ports:
+            - "8080:8080"
+            - "50000:50000"
